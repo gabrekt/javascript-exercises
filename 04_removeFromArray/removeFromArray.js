@@ -1,4 +1,6 @@
-const removeFromArray = function() {
+const removeFromArray = function(array, rm1, rm2) {
+    return array.split(3)
+
 
 };
 
