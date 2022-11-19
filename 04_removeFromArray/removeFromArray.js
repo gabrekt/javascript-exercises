@@ -1,6 +1,5 @@
 const removeFromArray = function(array, rm1, rm2) {
-    return array.split(3)
-
+    return array.split(rm1)
 
 };
 
