@@ -1,6 +1,6 @@
 const sumAll = function(n1, n2) {
     let acumulador = 0
-    if (n1 < 0 || n2 < 0) {return 'ERROR'} //Googlear return when non a number parameter
+    if (n1 < 0 || n2 < 0 || Number.isInteger(n1) === false || Number.isInteger(n2) === false) {return 'ERROR'} //Googlear return when non a number parameter
     else {
         if (n2 > n1){
             while (n1 <= n2){

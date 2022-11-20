@@ -5,11 +5,5 @@ const leapYears = function(year) {
         {return false}
 };
 
-years = 1600
-console.log(leapYears(years))
-console.log(years % 4 == 0)
-console.log(years % 400 == 0)
-console.log(years % 100 != 0)
-
 // Do not edit below this line
 module.exports = leapYears;
